@@ -73,8 +73,9 @@ type Log = {
 --// Compatibility
 local SetClipboard = setclipboard or toclipboard or set_clipboard
 
---// Libraries
-local ReGui = loadstring(game:HttpGet('https://github.com/depthso/Dear-ReGui/raw/refs/heads/main/ReGui.lua'), "ReGui")()
+--// Librarieshttps://github.com/depthso/Dear-ReGui/raw/refs/heads/main/ReGui.lua
+
+local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/depthso/Dear-ReGui/main/ReGui.lua'), "ReGui")()
 
 --// Modules
 local Flags
